@@ -11,6 +11,7 @@ const Input = ({ label, name, value, onChange }) => {
         value={value}
         onChange={onChange}
         name={name}
+        placeholder="Input Search & Press Enter"
       />
     </div>
   );
